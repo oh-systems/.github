@@ -4,7 +4,7 @@
 
 <!-- ASCII BLOCK: OH LOGO -->
 
-**Spatial experiences that transact, think, and operate — without leaving the world.**
+**A system for building functional, transactional digital spaces.**
 
 [Website](https://o-h.systems) · [Experience](https://o-h.systems/space) · [O-OH](https://o.o-h.systems)
 
@@ -14,13 +14,45 @@
 
 ## About
 
-OH is a runtime for spatial commerce. We build infrastructure that lets immersive experiences handle real transactions, intelligent assistance, and operational continuity — all without pulling users out of the world.
+OH develops infrastructure, software, and tooling that allow immersive environments to operate as complete products — not previews, simulations, or marketing layers. Browsing, interaction, commerce, and state all exist inside the same system.
 
-Most digital environments treat commerce as external. You browse in-world, then get redirected to a website to actually buy. We think that's broken. OH keeps everything inside.
+Most digital environments treat commerce as external. You explore in-world, then get redirected to a website to actually buy. OH keeps everything inside. The focus is on making spatial experiences usable, reliable, and production-ready.
 
 ---
 
-## Systems
+## Experience Layer
+
+<!-- ASCII BLOCK: EXPERIENCE -->
+
+The real-time environment where users exist. Built in Unreal Engine with a focus on stability, performance, and native commerce UI. This is where browsing, interaction, and transactions happen — spatial interfaces designed for function, not spectacle.
+
+Responsibilities include in-world rendering, commerce UI (cart, checkout, confirmation states), WebView integration for hosted checkout, analytics event emission, and multiplayer infrastructure.
+
+---
+
+## Design Principles
+
+| | |
+|---|---|
+| **Function before presentation** | Systems over surfaces |
+| **Real transactions** | Not simulations |
+| **Persistence and continuity** | Minimal abstraction between user and system |
+
+OH avoids speculative features and decorative layers. Everything built is intended to work under real conditions.
+
+---
+
+## Web
+
+<!-- ASCII BLOCK: WEB -->
+
+The surfaces that connect OH to the world. The main website, streaming entry points, and the infrastructure that lets users enter experiences from any browser.
+
+This layer handles the bridge between web platforms and real-time engines — deployment, access, and interoperability. It supports streaming distribution (cloud and self-hosted), PC build downloads, mobile adaptation, and serves as the primary entry point at [o-h.systems](https://o-h.systems).
+
+---
+
+## Core Systems
 
 <table>
 <tr>
@@ -32,26 +64,24 @@ Infrastructure for in-world transactions. Cart state, checkout flow, payment pro
 </td>
 <td width="50%" valign="top">
 
-### O-OHs
-Embodied AI agents that take real actions. Product discovery, cart management, checkout initiation, failure explanation, and support handoff — native to the experience.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### Identity + Session
-Continuity across sessions and surfaces. Guest-to-login transitions, cross-surface state, and preference memory for commerce-relevant data.
-
-</td>
-<td width="50%" valign="top">
-
-### Experience Layer
-Real-time rendering, spatial interfaces, and native UI for commerce — built in Unreal Engine with a focus on stability and performance.
+Persistent session layers that track user state, actions, and context across immersive experiences. Guest-to-login transitions, cross-surface state, and preference memory.
 
 </td>
 </tr>
 </table>
+
+---
+
+## O-OHs
+
+<!-- ASCII BLOCK: O-OH -->
+
+Conversational agents designed to operate as in-world staff. O-OHs are not chatbots — they take real actions. Product discovery, cart management, checkout initiation, failure explanation, and support handoff — native to the experience.
+
+Every action is deterministic. If an O-OH says it added something to your cart, it actually did. The goal is assistance that feels like part of the world, not an overlay or interruption.
+
+Currently accessible at [o.o-h.systems](https://o.o-h.systems) with voice, text, and visual interaction.
 
 ---
 
@@ -67,17 +97,23 @@ Real-time rendering, spatial interfaces, and native UI for commerce — built in
 
 ---
 
-## Principles
+## Status
 
-| | |
-|---|---|
-| **Commerce is native** | Transactions happen in-world or we haven't proven anything |
-| **AI exists to act** | Conversation is only valuable if it triggers real actions |
-| **Reliability first** | If the core doesn't work, nothing else matters |
+OH is under active development. Some repositories represent production systems, others are proofs of concept or internal tools. Not all projects are intended for public use.
+
+---
+
+## Philosophy
+
+OH treats digital environments as systems, not content.
+
+If a space cannot operate independently — remember state, process transactions, and support users — it is incomplete.
 
 ---
 
 <div align="center">
+
+<!-- ASCII BLOCK: FOOTER -->
 
 **[o-h.systems](https://o-h.systems)**
 
