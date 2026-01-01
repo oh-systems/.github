@@ -20,8 +20,6 @@ OH develops infrastructure, software, and tooling that allow immersive environme
 
 Most digital environments treat commerce as external. You explore in-world, then get redirected to a website to actually buy. OH keeps everything inside. The focus is on making spatial experiences usable, reliable, and production-ready.
 
----
-
 ## Experience Layer
 
 <picture>
@@ -34,8 +32,6 @@ The real-time environment where users exist. Built in Unreal Engine with a focus
 
 Responsibilities include in-world rendering, commerce UI (cart, checkout, confirmation states), WebView integration for hosted checkout, analytics event emission, and multiplayer infrastructure.
 
----
-
 ## Design Principles
 
 | | |
@@ -45,8 +41,6 @@ Responsibilities include in-world rendering, commerce UI (cart, checkout, confir
 | **Persistence and continuity** | Minimal abstraction between user and system |
 
 OH avoids speculative features and decorative layers. Everything built is intended to work under real conditions.
-
----
 
 ## Web
 
@@ -59,8 +53,6 @@ OH avoids speculative features and decorative layers. Everything built is intend
 The surfaces that connect OH to the world. The main website, streaming entry points, and the infrastructure that lets users enter experiences from any browser.
 
 This layer handles the bridge between web platforms and real-time engines — deployment, access, and interoperability. It supports streaming distribution (cloud and self-hosted), PC build downloads, mobile adaptation, and serves as the primary entry point at [o-h.systems](https://o-h.systems).
-
----
 
 ## Core Systems
 
@@ -81,8 +73,6 @@ Persistent session layers that track user state, actions, and context across imm
 </tr>
 </table>
 
----
-
 ## O-OHs
 
 <picture>
@@ -97,8 +87,6 @@ Every action is deterministic. If an O-OH says it added something to your cart, 
 
 Currently accessible at [o.o-h.systems](https://o.o-h.systems) with voice, text, and visual interaction.
 
----
-
 ## Repositories
 
 | Repository | Description | Language |
@@ -109,21 +97,15 @@ Currently accessible at [o.o-h.systems](https://o.o-h.systems) with voice, text,
 | [oh-companion-backend](https://github.com/oh-systems/oh-companion-backend) | O-OH backend — LLM, session memory, voice I/O | Python |
 | [e-cohm](https://github.com/oh-systems/e-cohm) | Commerce runtime API | TypeScript |
 
----
-
 ## Status
 
 OH is under active development. Some repositories represent production systems, others are proofs of concept or internal tools. Not all projects are intended for public use.
-
----
 
 ## Philosophy
 
 OH treats digital environments as systems, not content.
 
 If a space cannot operate independently — remember state, process transactions, and support users — it is incomplete.
-
----
 
 <div align="center">
 
