@@ -6,7 +6,7 @@ The organization develops infrastructure, software, and tooling that allow immer
 
 OH focuses on making spatial experiences usable, reliable, and production-ready.
 
-⸻
+```text
 ==============================+=======================-------:::::::::::::::::::
 ================+==+=+++==+++++++++=++++*++=--:::::-:::::::.....................
 =======+==+====+++++++++++++++++++++*#%###*+=-::................................
@@ -32,7 +32,6 @@ OH focuses on making spatial experiences usable, reliable, and production-ready.
 ++++++++++++++++++++++++++++++=++++==================================-==--------
 ++++++++++++++++++++++++++++++==+++==+===========================---------------
 
-⸻
 What OH Builds
 
 OH develops software and systems in the following areas:
