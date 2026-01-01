@@ -2,7 +2,7 @@
 
 # OH
 
-<!-- ASCII BLOCK: OH LOGO -->
+<img src="../assets/SPACE.svg" alt="OH Logo" width="500">
 
 **A system for building functional, transactional digital spaces.**
 
@@ -22,7 +22,7 @@ Most digital environments treat commerce as external. You explore in-world, then
 
 ## Experience Layer
 
-<!-- ASCII BLOCK: EXPERIENCE -->
+<img src="../assets/EXP.svg" alt="Experience" width="600">
 
 The real-time environment where users exist. Built in Unreal Engine with a focus on stability, performance, and native commerce UI. This is where browsing, interaction, and transactions happen — spatial interfaces designed for function, not spectacle.
 
@@ -44,7 +44,7 @@ OH avoids speculative features and decorative layers. Everything built is intend
 
 ## Web
 
-<!-- ASCII BLOCK: WEB -->
+<img src="../assets/WEB.svg" alt="Web" width="500">
 
 The surfaces that connect OH to the world. The main website, streaming entry points, and the infrastructure that lets users enter experiences from any browser.
 
@@ -75,7 +75,7 @@ Persistent session layers that track user state, actions, and context across imm
 
 ## O-OHs
 
-<!-- ASCII BLOCK: O-OH -->
+<img src="../assets/O-OH.svg" alt="O-OH" width="450">
 
 Conversational agents designed to operate as in-world staff. O-OHs are not chatbots — they take real actions. Product discovery, cart management, checkout initiation, failure explanation, and support handoff — native to the experience.
 
@@ -112,8 +112,6 @@ If a space cannot operate independently — remember state, process transactions
 ---
 
 <div align="center">
-
-<!-- ASCII BLOCK: FOOTER -->
 
 **[o-h.systems](https://o-h.systems)**
 
