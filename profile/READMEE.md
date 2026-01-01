@@ -2,7 +2,11 @@
 
 # OH
 
-<img src="../assets/SPACE.svg" alt="OH Logo" width="500">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/dark/SPACE.svg">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/light/SPACE.svg">
+  <img src="../assets/light/SPACE.svg" alt="OH Logo" width="500">
+</picture>
 
 **A system for building functional, transactional digital spaces.**
 
@@ -22,7 +26,11 @@ Most digital environments treat commerce as external. You explore in-world, then
 
 ## Experience Layer
 
-<img src="../assets/EXP.svg" alt="Experience" width="600">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/dark/EXP.svg">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/light/EXP.svg">
+  <img src="../assets/light/EXP.svg" alt="Experience" width="600">
+</picture>
 
 The real-time environment where users exist. Built in Unreal Engine with a focus on stability, performance, and native commerce UI. This is where browsing, interaction, and transactions happen — spatial interfaces designed for function, not spectacle.
 
@@ -44,7 +52,11 @@ OH avoids speculative features and decorative layers. Everything built is intend
 
 ## Web
 
-<img src="../assets/WEB.svg" alt="Web" width="500">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/dark/WEB.svg">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/light/WEB.svg">
+  <img src="../assets/light/WEB.svg" alt="Web" width="500">
+</picture>
 
 The surfaces that connect OH to the world. The main website, streaming entry points, and the infrastructure that lets users enter experiences from any browser.
 
@@ -75,7 +87,11 @@ Persistent session layers that track user state, actions, and context across imm
 
 ## O-OHs
 
-<img src="../assets/O-OH.svg" alt="O-OH" width="450">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/dark/O-OH.svg">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/light/O-OH.svg">
+  <img src="../assets/light/O-OH.svg" alt="O-OH" width="450">
+</picture>
 
 Conversational agents designed to operate as in-world staff. O-OHs are not chatbots — they take real actions. Product discovery, cart management, checkout initiation, failure explanation, and support handoff — native to the experience.
 
